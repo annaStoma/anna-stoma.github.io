@@ -10,7 +10,7 @@
 
 .msg a {
     margin-left: 20px;
-    background: #1a6985;
+    background: white;
     color: white;
     padding: 4px 8px;
     text-decoration: none;
@@ -26,31 +26,27 @@
     margin-left: 65px;
 }
 
-.msg a:hover {
-    background: #1a6985;
-}
-
 .pdf-button {
     display: flex;
     justify-content: flex-end;
+    margin-top: 0 !important;
 }
 
 html {
-    background: #e9f5f9;
+    background: #474747;
 }
 
 /* //-- yui-grids style overrides -- */
 body {
     font-family: "Calibri";
-    color: #0b2d39;
-    background: #e9f5f9;
-    border: solid #7cc0d8;
+    color: white;
+    background: #474747;
     border-width: 8px 0 2px 0;
 }
 
 #inner {
     padding: 0 70px;
-    background: #e9f5f9;
+    background: #474747;
     width: 100%;
 }
 
@@ -104,18 +100,30 @@ h3, h4 {
     font-size: 122%;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
+.list-style-type-none {
+    list-style-type:  none;
+}
+
+.list-style-type-arr {
+    list-style-type: "-  ";
+}
+
 h1, h2, h3, h4 {
-    color: #333;
+    color: white;
 }
 
 p {
-    font-size: 100%;
+    font-size: 16px;
     line-height: 18px;
     padding-right: 3em;
 }
 
 a {
-    color: #1a6985;
+    color: #ffffff;
 }
 
 a:hover {
@@ -136,7 +144,7 @@ strong {
 }
 
 .small-title {
-    color: #3ba1c5;
+    color: white;
 }
 
 li {
@@ -175,7 +183,7 @@ p.enlarge span {
 
 .contacts a {
     text-decoration: none;
-    color: #026e93;
+    color: white;
 }
 
 .contacts a span {
@@ -184,7 +192,7 @@ p.enlarge span {
 
 
 .contacts a:not(:first-child) {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 
@@ -272,4 +280,6 @@ a#pdf:hover {
     width: 12.3%;
 }
 
-
+.red {
+    color: red;
+}
